@@ -1,0 +1,97 @@
+# -----------------------------
+# Python / Virtual Environment
+# -----------------------------
+venv/
+env/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# -----------------------------
+# Jupyter Notebook
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Django
+# -----------------------------
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+static/
+*.sqlite3
+*.mo
+*.log
+*.cache/
+*.lock
+
+# Ignore Django secret key files
+.env
+*.env
+.env.local
+.secrets/
+
+# -----------------------------
+# Machine Learning Artifacts
+# -----------------------------
+ml/models/
+ml/checkpoints/
+ml/outputs/
+ml/runs/
+*.h5
+*.hdf5
+*.joblib
+*.model
+*.pickle
+*.pkl
+*.npz
+
+# -----------------------------
+# Dataset files (optional)
+# -----------------------------
+data/*.csv
+data/*.zip
+data/raw/
+data/processed/
+data/mimic/
+
+# -----------------------------
+# Streamlit (optional)
+# -----------------------------
+.streamlit/
+
+# -----------------------------
+# Node / React (optional)
+# -----------------------------
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+dist/
+build/
+
+# -----------------------------
+# OS / Editor files
+# -----------------------------
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# -----------------------------
+# IDEs
+# -----------------------------
+.vscode/
+.idea/
+
+# -----------------------------
+# Docker
+# -----------------------------
+docker-compose.override.yml
